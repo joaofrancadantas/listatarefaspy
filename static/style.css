@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #1E1E22;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-size: 22px;
+}
+
+body {
+    background-color: #F7F7F2;
+}
+
+.main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.inputTarefa {
+    border-radius: 12px;
+    border-style: solid;
+    border-color: #1E1E22;
+    border-width: 1px;
+    padding: 8px 14px;
+    width: 260px;
+}
+
+.form-tarefa {
+    width: 440px;
+    display: flex;
+    justify-content: center;
+    gap: 4px;
+}
+
+.btn-envio {
+    border-style: none;
+    padding: 8px 18px;
+    background-color: #399E5A;
+    color: #F7F7F2;
+    border-radius: 12px;
+    transition: all .5s;
+}
+
+.btn-envio:hover {
+    cursor: pointer;
+    background-color: #26532B;
+    transition: all .5s;
+}
+
+.tarefaExistente {
+    width: 440px;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.tarefaListada {
+    background-color: white;
+    padding: 10px 12px;
+    border-radius: 8px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #1E1E22;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lixeira {
+    color: rgb(255, 54, 54);
+}
+
+.lixeira:hover {
+    cursor: pointer;
+}
